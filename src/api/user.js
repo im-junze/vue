@@ -9,6 +9,14 @@ export async function getInfo() {
   return await requestHttp.get('/auto_rental/auth/getInfo')
 }
 
+export async function logout(param) {
+  return await requestHttp.post('/auto_rental/auth/logout', param)
+}
+
+export async function getMenuList() {
+  return await requestHttp.get('/auto_rental/auth/menuList')
+}
+
 /*export function login(data) {
  return request({
    url: '/vue-element-admin/user/login',
