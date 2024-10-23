@@ -43,7 +43,7 @@ export function validLowerCase(str) {
  */
 export function validUpperCase(str) {
   const reg = /^[A-Z]+$/
-  return reg.test(str)
+  return str.length>0
 }
 
 /**
