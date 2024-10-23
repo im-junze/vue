@@ -79,11 +79,11 @@ export const constantRoutes = [
         path: 'dashboard',
         component: () => import('@/views/dashboard/index'),
         name: 'Dashboard',
-        meta: { title: 'Dashboard', icon: 'dashboard', affix: true }
+        meta: { title: '首页', icon: 'dashboard', affix: true }
       }
     ]
   },
-  {
+ /* {
     path: '/documentation',
     component: Layout,
     children: [
@@ -107,7 +107,7 @@ export const constantRoutes = [
         meta: { title: 'Guide', icon: 'guide', noCache: true }
       }
     ]
-  },
+  },*/
   {
     path: '/profile',
     component: Layout,
